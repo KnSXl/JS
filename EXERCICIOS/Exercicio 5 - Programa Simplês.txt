@@ -1,0 +1,39 @@
+Exercicio 5 - Programa Simplês
+
+*certo*
+
+let nome = prompt("Insira seu nome: ") //Perguntar o Nome
+let anoNasc = Number(prompt("Insira seu ano de nascimento: ")) //Perguntar o ano de Nasc
+let anoAtual = Number(prompt("Digite o ano atual: ")) //Perguntar o ano atual
+
+alert(`Seu nome: ${nome}` ) //Resposta do nome 
+alert(`Sua idade: ${anoAtual - anoNasc}`) //Resp. da Idade
+alert(`Você é maior de idade: ${anoAtual - anoNasc > 17}`) //Resp. de Maior de Idade
+alert(`Sua idade em 2050: ${2050 - anoNasc}`) //Ano em 2050
+
+
+
+*O meu*
+let nome = (prompt("Digite seu nome: "))
+let idade = Number(prompt("Digite sua idade: "))
+
+alert(`Seu nome: ${nome}`)
+alert(`Sua idade: ${idade}`)
+alert(`Você é maior de idade: ${idade>17}`)
+alert(`Sua idade em 2050: ${idade+27}`)
+
+
+
+*O meu usando If e Else*
+let nome = (prompt("Digite seu nome: "))
+let idade = Number(prompt("Digite sua idade: "))
+
+alert (`Seu nome: ${nome}`)
+alert(`Sua idade: ${idade}`)
+if(idade > 17){
+    alert("Você é maior de idade")
+}
+else{
+    alert("Você ainda não é maior de idade")
+}
+alert(`Você em 2050 tera: ${idade + 27}`)
