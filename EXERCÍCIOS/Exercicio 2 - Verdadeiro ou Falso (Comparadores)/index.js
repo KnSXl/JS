@@ -1,4 +1,4 @@
-Exercicio 2 - Verdadeiro ou Falso (Comparadores)
+//Exercicio 2 - Verdadeiro ou Falso (Comparadores)
 
 let num1 = 1
 let num2 = 2

@@ -1,4 +1,4 @@
-Exercicio 1 - Operação Aritimética
+//Exercicio 1 - Operação Aritimética
 
 let num1 = 3
 let num2 = 4
@@ -20,4 +20,3 @@ let soma3 = 234 % 5
 alert(soma3) 
 
 //simplificado
-

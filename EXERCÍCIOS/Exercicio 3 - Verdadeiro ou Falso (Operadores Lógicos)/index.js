@@ -1,4 +1,4 @@
-Exercicio 3 - Verdadeiro ou Falso (Operadores Lógicos)
+//Exercicio 3 - Verdadeiro ou Falso (Operadores Lógicos)
 
 let a = true 
 let b = false
